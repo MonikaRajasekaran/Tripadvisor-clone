@@ -845,4 +845,11 @@
         flex-direction: column;
         margin: 0px;
     }
+     .expo__container__s1{
+        background-image: url(images/expo.jpg);
+        color: #ffff;
+        text-align: left;
+    }
+    .expo__container__s2 img {
+display: none;    }
 }
