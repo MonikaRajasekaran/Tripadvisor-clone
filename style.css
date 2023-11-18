@@ -749,7 +749,9 @@
         display: none;
 
     }
-
+    .whereto h1 {
+        font-size: 40px;
+    }
     .whereto__list ul {
         flex-direction: column;
     }
@@ -774,7 +776,8 @@
         text-align: start;
     }
     .expo__container__s1__title {
-        font-size: 8px;
+        font-size: 15px;
+        margin-top: 46px;
     }
     .image__container img 
     {
@@ -791,23 +794,28 @@
         margin-top: 4px;
     }
     .image__container__content {
-        top: 69%;
-        left: 10%;
-        font-size: 6px;
+       top: 55%;
+    left: 10%;
+    font-size: 10px;
     }
 
-    .booknow-card h3, 
-    .vibrantcities-card h3, 
+    .booknow-card h3,  
     .nexttrip-card h3 {
-        top: 61%;
-        font-size: 7px !important;
+        top: 50%;
+        font-size: 12px !important;
+        left: 5px;
+    }
+    .vibrantcities-card h3{
+        font-size: 6px !important;
+        top: 50%;
+        left: 5px;
     }
     .choice__container__content {
         flex-direction: column;
     }
 
     .choice__container__content__s2 img {
-        height: 50vh;
+        height: 40vh;
     }
 
     .choice__container__content {
@@ -822,6 +830,10 @@
         font-weight: 900;
         font-size: 11px;
     }
+    .waytomadurai-card .icon ,
+    .explore-card .icon {
+        padding: 3px;
+    }
     .nexttrip {
         padding: 10px 10px !important;
     }
@@ -831,9 +843,9 @@
     }
 
     .nexttrip-card h3 {
-        top: 65% !important;
+        top: 77% !important;
         font-weight: 500;
-        font-size: 20px !important;
+        font-size: 9px !important;
         left: 5px;
         width: fit-content;
     }
@@ -841,8 +853,23 @@
     .footer {
         padding: 20px 20px;
     }
+    .footer__one {
+        display: flex;
+        gap: 3px;
+    }
     .footer__two{
         flex-direction: column;
         margin: 0px;
     }
+    .footer__one p {
+    font-size: 8px !important;
+    padding: 2px;
+}
+     .expo__container__s1{
+        background-image: url(images/expo.jpg);
+        color: #ffff;
+        text-align: left;
+    }
+    .expo__container__s2 img {
+display: none;    }
 }
