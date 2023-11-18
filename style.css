@@ -826,6 +826,11 @@
     .explore-card .icon {
         padding: 3px;
     }
+    .vibrantcities-card h3 {
+    font-size: 6px !important;
+    top: 50%;
+    left: 5px;
+}
     .nexttrip {
         padding: 10px 10px !important;
     }
