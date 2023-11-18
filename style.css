@@ -800,8 +800,8 @@
     .booknow-card h3, 
     .vibrantcities-card h3, 
     .nexttrip-card h3 {
-        top: 61%;
-        font-size: 7px !important;
+        top: 77%;
+        font-size: 9px !important;
     }
     .choice__container__content {
         flex-direction: column;
@@ -832,9 +832,9 @@
     }
 
     .nexttrip-card h3 {
-        top: 65% !important;
+        top: 77% !important;
         font-weight: 500;
-        font-size: 20px !important;
+        font-size: 9px !important;
         left: 5px;
         width: fit-content;
     }
