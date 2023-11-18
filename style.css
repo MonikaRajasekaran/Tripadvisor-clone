@@ -808,7 +808,7 @@
     }
 
     .choice__container__content__s2 img {
-        height: 50vh;
+        height: 40vh;
     }
 
     .choice__container__content {
@@ -842,12 +842,16 @@
     .footer {
         padding: 20px 20px;
     }
+    .footer__one {
+        display: flex;
+        gap: 3px;
+    }
     .footer__two{
         flex-direction: column;
         margin: 0px;
     }
     .footer__one p {
-    font-size: 8px;
+    font-size: 8px !important;
     padding: 2px;
 }
      .expo__container__s1{
