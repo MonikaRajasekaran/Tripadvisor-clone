@@ -708,7 +708,8 @@
     }
 
     .expo__container__s1__title {
-        font-size: 17px;
+        font-size: 15px;
+        margin-top: 46px;
     }
 
     .waytomadurai,
@@ -749,7 +750,9 @@
         display: none;
 
     }
-
+    .whereto h1 {
+        font-size: 40px;
+    }
     .whereto__list ul {
         flex-direction: column;
     }
@@ -773,10 +776,7 @@
         display: inline-block;
         text-align: start;
     }
-    .expo__container__s1__title {
-        font-size: 8px;
-        margin-top: 46px;
-    }
+   
     .image__container img 
     {
         height: 40vh;
@@ -792,16 +792,15 @@
         margin-top: 4px;
     }
     .image__container__content {
-       top: 64%;
-    left: 10%;
-    font-size: 10px;
+        top: 69%;
+        left: 10%;
+        font-size: 6px;
     }
 
-    .booknow-card h3, 
-    .vibrantcities-card h3, 
+    .booknow-card h3,  
     .nexttrip-card h3 {
-        top: 65%;
-        font-size: 10px !important;
+        top: 61%;
+        font-size: 7px !important;
     }
     .choice__container__content {
         flex-direction: column;
@@ -822,6 +821,10 @@
         padding: 1px;
         font-weight: 900;
         font-size: 11px;
+    }
+    .waytomadurai-card .icon ,
+    .explore-card .icon {
+        padding: 3px;
     }
     .nexttrip {
         padding: 10px 10px !important;
