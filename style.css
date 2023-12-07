@@ -431,12 +431,11 @@
 
 .vibrantcities-card h3 {
     position: absolute;
-    top: 80%;
+    bottom: 10%;
     color: #ffffff;
     font-weight: 900;
     font-size: 25px;
     left: 10px;
-    line-height: 30px;
     z-index: 1;
 
 
@@ -475,12 +474,11 @@
 
 .booknow-card h3 {
     position: absolute;
-    top: 80%;
+    bottom: 10%;
     color: #ffffff;
     font-weight: 900;
     font-size: 25px;
     left: 10px;
-    line-height: 30px;
     z-index: 1;
 
 }
@@ -699,7 +697,7 @@
     .booknow-card h3,
     .vibrantcities-card h3,
     .nexttrip-card h3 {
-        top: 69%;
+bottom: 10%;
         font-size: 14px !important;
     }
 
@@ -725,9 +723,10 @@
 }
 
 @media screen and (max-width:650px) {
+
     .waytomadurai,
     .trip__container,
-    .vibrantcities ,
+    .vibrantcities,
     .Vibrantcities__container,
     .nexttrip,
     .explore,
@@ -736,9 +735,11 @@
     .choice__container__content {
         padding: 20px 20px;
     }
-    p{
+
+    p {
         font-size: 10px;
     }
+
     .navbar {
         justify-content: center !important;
         align-items: center !important;
@@ -750,9 +751,15 @@
         display: none;
 
     }
+
+    .image__container img {
+        height: 30vh;
+    }
+
     .whereto h1 {
         font-size: 40px;
     }
+
     .whereto__list ul {
         flex-direction: column;
     }
@@ -769,25 +776,21 @@
     .whereto__search__box button {
         width: 100%;
     }
-    .waytomadurai-card{
+
+    .waytomadurai-card {
         flex-basis: 40%;
     }
+
     .navbar__icon {
         display: inline-block;
         text-align: start;
     }
-<<<<<<< HEAD
+
     .expo__container__s1__title {
         font-size: 15px;
         margin-top: 46px;
     }
-=======
-   
->>>>>>> fab85193795ebf23c12af867e0e49ee3581a1b4a
-    .image__container img 
-    {
-        height: 40vh;
-    }
+
     .image__container__content button {
         height: 36px;
         width: 123px;
@@ -798,23 +801,26 @@
         font-weight: 700;
         margin-top: 4px;
     }
+
     .image__container__content {
-       top: 55%;
-    left: 10%;
-    font-size: 10px;
+        top: 55%;
+        left: 10%;
+        font-size: 10px;
     }
 
-    .booknow-card h3,  
+    .booknow-card h3,
     .nexttrip-card h3 {
-        top: 50%;
-        font-size: 12px !important;
+        bottom: 10%;
+        font-size: 8px !important;
         left: 5px;
     }
-    .vibrantcities-card h3{
+
+    .vibrantcities-card h3 {
         font-size: 6px !important;
-        top: 50%;
+        bottom: 10%;
         left: 5px;
     }
+
     .choice__container__content {
         flex-direction: column;
     }
@@ -826,27 +832,24 @@
     .choice__container__content {
         padding: 0 50px;
     }
-    .explore__container{
+
+    .explore__container {
         flex-wrap: nowrap;
     }
+
     .explore-card p {
         text-align: center;
         padding: 1px;
         font-weight: 900;
         font-size: 11px;
     }
-    .waytomadurai-card .icon ,
+
+    .waytomadurai-card .icon,
     .explore-card .icon {
         padding: 3px;
+
     }
-<<<<<<< HEAD
-=======
-    .vibrantcities-card h3 {
-    font-size: 6px !important;
-    top: 50%;
-    left: 5px;
-}
->>>>>>> fab85193795ebf23c12af867e0e49ee3581a1b4a
+
     .nexttrip {
         padding: 10px 10px !important;
     }
@@ -866,23 +869,29 @@
     .footer {
         padding: 20px 20px;
     }
+
     .footer__one {
         display: flex;
         gap: 3px;
     }
-    .footer__two{
+
+    .footer__two {
         flex-direction: column;
         margin: 0px;
     }
+
     .footer__one p {
-    font-size: 8px !important;
-    padding: 2px;
-}
-     .expo__container__s1{
+        font-size: 8px !important;
+        padding: 2px;
+    }
+
+    .expo__container__s1 {
         background-image: url(images/expo.jpg);
         color: #ffff;
         text-align: left;
     }
+
     .expo__container__s2 img {
-display: none;    }
+        display: none;
+    }
 }
