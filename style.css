@@ -708,7 +708,8 @@
     }
 
     .expo__container__s1__title {
-        font-size: 17px;
+        font-size: 15px;
+        margin-top: 46px;
     }
 
     .waytomadurai,
@@ -775,10 +776,14 @@
         display: inline-block;
         text-align: start;
     }
+<<<<<<< HEAD
     .expo__container__s1__title {
         font-size: 15px;
         margin-top: 46px;
     }
+=======
+   
+>>>>>>> fab85193795ebf23c12af867e0e49ee3581a1b4a
     .image__container img 
     {
         height: 40vh;
@@ -834,6 +839,14 @@
     .explore-card .icon {
         padding: 3px;
     }
+<<<<<<< HEAD
+=======
+    .vibrantcities-card h3 {
+    font-size: 6px !important;
+    top: 50%;
+    left: 5px;
+}
+>>>>>>> fab85193795ebf23c12af867e0e49ee3581a1b4a
     .nexttrip {
         padding: 10px 10px !important;
     }
